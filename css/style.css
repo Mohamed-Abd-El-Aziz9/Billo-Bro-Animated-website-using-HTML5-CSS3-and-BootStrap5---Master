@@ -1,0 +1,244 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/*============Navbar=================*/
+.navbar {
+    font-weight: 500;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    z-index: 10;
+}
+
+.nav-link {
+    color: gray !important;
+    transition: all .7s;
+}
+
+.nav-link:hover {
+    color: black !important;
+
+}
+
+.active {
+    color: #0d6efd !important;
+}
+
+.home {
+    height: 100vh;
+    background-image: url("../images/cover_1.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.layer {
+    background-color: rgba(13, 110, 253, .7);
+    height: 100vh;
+}
+
+.home .layer .cont h1 {
+    font-size: 60px;
+}
+
+.btn-main {
+    background: linear-gradient(to right, #00e0fe, #1107fe);
+    border-radius: 100px;
+    border: none;
+    font-weight: 400;
+    color: #fff;
+    padding: 15px 40px;
+}
+
+.line {
+    height: 4px;
+    width: 70px;
+    background: linear-gradient(to right, #00e0fe, #1107fe);
+    margin: 16px auto;
+}
+
+.navbar-toggler-icon:focus {
+    outline: 1px none;
+}
+
+.navbar-toggler {
+    color: transparent;
+    outline: 0px;
+    border-color: rgba(17, 7, 254, .4);
+}
+
+.navbar-toggler-icon .menu-icon {
+    margin: 5px auto;
+    width: 20px;
+    height: 24px;
+    cursor: pointer;
+    position: relative;
+}
+
+.navbar-toggler-icon .menu-icon span {
+    background-color: rgba(17, 7, 254);
+    height: 2px;
+    position: absolute;
+    width: 120%;
+    left: 0;
+    transition: all .5s;
+}
+
+.navbar-toggler-icon .menu-icon span:first-child {
+    top: 0;
+
+}
+
+.navbar-toggler-icon .menu-icon span:nth-child(2) {
+    top: 9px;
+}
+
+.navbar-toggler-icon .menu-icon span:last-child {
+    top: 18px;
+}
+
+.navbar-toggler-icon .menu-icon:hover span:nth-child(2) {
+    opacity: 0;
+}
+
+.navbar-toggler-icon .menu-icon:hover span:first-child,
+.navbar-toggler-icon .menu-icon:hover span:last-child {
+    top: 6px;
+    background-color: red;
+}
+
+.navbar-toggler-icon .menu-icon:hover span:first-child {
+    transform: rotate(45deg);
+}
+
+.navbar-toggler-icon .menu-icon:hover span:last-child {
+    transform: rotate(-45deg);
+}
+
+/*-------service-----------*/
+.icon {
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(to right, #00e0fe, #1107fe);
+    color: #fff;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    transform: translateY(-50%);
+}
+
+.icon i {
+    font-size: 36px;
+}
+
+/*----------About-------------*/
+.about {
+    height: fit-content;
+    background-image: url(../images/cover_3.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.about .layer {
+    height: fit-content;
+    padding: 100px
+}
+
+.sp-icon {
+    transform: translateY(50%);
+    font-size: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.sp-icon i {
+    font-size: 20px;
+}
+
+/*----------------Features---------------*/
+.feauters .sperate {
+    box-sizing: border-box;
+}
+
+.feauters-icon {
+    font-size: 60px;
+    color: #1107fe;
+}
+
+/*-----------Counter----------*/
+.counter {
+    background-image: url(../images/cover_2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.counter .layer {
+    padding: 100px 0px;
+    height: fit-content;
+}
+
+.counter .layer i {
+    font-size: 50px;
+}
+
+.counter .layer p {
+    font-size: 40px;
+}
+
+.counter .layer span {
+    font-size: 20px;
+}
+
+.testimonials .empolyee {
+    transition: all 1s;
+}
+
+.testimonials .empolyee:hover {
+    box-shadow: 10px 10px rgba(17, 7, 254, .8) !important;
+
+}
+
+/*--------Blog-------*/
+.blog {
+    background-color: #F8F9FA;
+}
+
+/*--------contact-------*/
+.contact {
+    background-image: url(../images/cover_3.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact .layer {
+    height: fit-content;
+}
+
+.contact .btn-main {
+    width: 200px !important;
+}
+
+/*--------Footer-------*/
+.footer {
+    background: linear-gradient(to right, #00e0fe, #1107fe) !important;
+}
+
+.footer-icon .i {
+    transition: all .3s;
+    font-size: 14px;
+}
+
+.footer-icon .i:hover {
+    color: #000000;
+}
